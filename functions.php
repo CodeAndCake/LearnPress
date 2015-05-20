@@ -32,6 +32,13 @@ function theHTML5BoilerplateDirectory()
 	print $directory;
 }
 
+function theSkeletonDirectory()
+{
+	$directory = getBowerDirectory() . 'skeleton-css/';
+	if (!fileExists($directory)) consoleLog("You seem to be missing the 'skeleton-css' folder", 'error');
+	print $directory;
+}
+
 // from http://php.net/manual/en/function.file-exists.php#103436
 function fileExists($path)
 {

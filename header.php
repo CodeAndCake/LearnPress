@@ -10,6 +10,7 @@
 		<?php // wp_head(); // wordpress head functions ?>
 
 		<link href="<?php theHTML5BoilerplateDirectory(); ?>css/normalize.css" rel="stylesheet">
+		<link href="<?php theSkeletonDirectory(); ?>css/skeleton.css" rel="stylesheet">
 		<link href="<?php theActiveThemeDirectory(); ?>css/main.css" rel="stylesheet">
 
 		<script src="<?php theHTML5BoilerplateDirectory(); ?>js/vendor/modernizr-2.8.3.min.js"></script>
