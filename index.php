@@ -31,7 +31,7 @@
 
 	<?php else : ?>
 
-		<h2>Nothing found</h2>
+		<?php get_template_part('templates/404'); ?>
 
 	<?php endif; ?>
 
