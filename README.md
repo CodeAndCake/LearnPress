@@ -5,13 +5,11 @@ The most minimal WordPress theme starter ever :)
 Designed for learning.
 
 
+
+
 # Getting started
 
-Download and extract the *zip* for this repository into your `wp-content/themes` folder.
-
-Or, if you prefer, *clone* this repository into your `wp-content/themes` folder.
-
-
+Download and extract the *zip* for this repository (or *clone* it) into your `wp-content/themes` folder.
 
 ### Adding libraries
 
@@ -26,20 +24,21 @@ Instead of manually finding libraries, downloading them, extracting them into th
 1. Open Terminal (Mac) or a [Command Prompt](http://windows.microsoft.com/en-gb/windows-vista/open-a-command-prompt-window) (Windows).  
 * Install [Node.JS](https://nodejs.org/)   
 	
-	Check if you have Node.JS installed   
+	To check if you have Node.JS installed..   
 	In Terminal / CP, type `npm` and press the `↲` (Enter) key
 * Install [bower](http://bower.io/)  
 
-	Check if you have bower installed   
+	To check if you have bower installed..   
 	Type `bower` and press the `↲` (Enter) key
 * If you're on Windows, install [msysgit](https://msysgit.github.io/)
-* Navigate to the LearnPress folder  
+* *Navigate* to the `LearnPress` folder  
 
-	In Mac, drag the LearnPress folder onto the Terminal app icon
-	In Windows, drag the LearnPress folder inside CP, then change `C:` to `cd`, so that you'll end up with something like `cd  \wamp\www\YOUR_SITE_NAME\wp-content\themes\LearnPress`
+	On Mac, drag the LearnPress folder onto the Terminal app icon  
+
+	On Windows, drag the LearnPress folder inside CP, then change `C:` to `cd`, so that you'll end up with something like `cd  \wamp\www\YOUR_SITE_NAME\wp-content\themes\LearnPress`
 * Type in `bower install` and press the `↲` (Enter) key
 
-	Bower will install the components listed in `bower.json`.
+	Bower will install the **components** listed in `bower.json`.
 	
 	LearnPress comes with HTML5Boilerplate and Skeleton.
 	
@@ -70,6 +69,4 @@ Check [libraries.io](https://libraries.io/bower/) for even more libraries.
 
 	`git config --global url."https://".insteadOf git://`
 	
-* If you're getting a `git is not installed or not in the PATH` error in Windows
-
-	Follow [these steps](http://stackoverflow.com/questions/20666989/bower-enogit-git-is-not-installed-or-not-in-the-path)
+* If you're getting a `git is not installed or not in the PATH` error in Windows, follow [these steps](http://stackoverflow.com/questions/20666989/bower-enogit-git-is-not-installed-or-not-in-the-path)
