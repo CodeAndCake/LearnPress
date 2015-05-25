@@ -65,12 +65,12 @@ Bower will install the *dependencies* listed in [bower.json](bower.json).
 
 If all goes well, you should end up with a new `bower_components` folder containing `html5-boilerplate` and `skeleton-css`
 	
-	```
-	LearnPress
-	├── bower_components
-	│   ├── html5-boilerplate
-	│   ├── skeleton-css
-	```
+```
+LearnPress
+├── bower_components
+│   ├── html5-boilerplate
+│   ├── skeleton-css
+```
 
 ![](img/terminal-bower-installed.png)
 
