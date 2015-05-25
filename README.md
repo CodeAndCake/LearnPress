@@ -9,17 +9,35 @@ Designed for learning.
 
 # Getting started
 
-Download and extract the *zip* for this repository (or *clone* it) into your `wp-content/themes` folder.
+Download and extract the *zip* for this repository (or `git clone` it) into your `wp-content/themes` folder.
+
+You want to end up with a `LearnPress` folder inside `wp-content/themes`
+
+```
+YOUR_WORDPRESS_FOLDER
+├── wp-content
+│   ├── themes
+│   │   ├── LearnPress
+│   │   ├ ...other themes that come pre-installed
+
+YOUR_WORDPRESS_FOLDER
+|-wp-content
+  |-themes  
+    |-LearnPress
+    |- ...other themes that come pre-installed
+```
 
 ### Adding libraries
 
 Such as HTML5 Boilerplate, Skeleton, Bootstrap etc.
 
-Instead of manually finding libraries, downloading them, extracting them into the right folder.. we can use a little tool called **bower** which will do *that* (managing *packages*) for us. 
+Instead of manually finding libraries, downloading them, extracting them into the right folder.. we can use a tool called [bower](http://bower.io/) which will do *that* (managing *packages*) for us. 
 
 ![](http://bower.io/img/bower-logo.png)
 
-<!--It'll take a little set up, but once you're up and running evrything will be smooth-->
+<!--It'll take a little set up, but once you're up and running everything will be smooth-->
+
+![](img/terminal.png) ![](img/command-prompt.jpg)
 
 1. Open Terminal (Mac) or a [Command Prompt](http://windows.microsoft.com/en-gb/windows-vista/open-a-command-prompt-window) (Windows).  
 * Install [Node.JS](https://nodejs.org/)   
@@ -55,7 +73,7 @@ Instead of manually finding libraries, downloading them, extracting them into th
 
 ### Want more libraries? 
 
-Let's say you want to add Bootstrap.
+Let's say you want to add [Bootstrap](http://getbootstrap.com/getting-started/#download-bower).
 
 `bower install bootstrap --save`
 
