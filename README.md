@@ -54,11 +54,14 @@ If you haven't installed bower yet, [follow the instructions](#installing-bower)
 * *Navigate* to the `LearnPress` folder  
 
 	* On Mac, drag the `LearnPress` folder onto the Terminal app icon  
+	![](img/folder-drag.png)
 
 	* On Windows, drag the `LearnPress` folder inside CommandPrompt, then change `C:` to `cd`, so that you'll end up with something like `cd  \wamp\www\YOUR_SITE_NAME\wp-content\themes\LearnPress`
 * Type in `bower install` and press the `↲` (Enter) key
 
 ![](img/terminal-bower-install.png)
+
+Bower will install the *dependencies* listed in [bower.json](bower.json).
 
 If all goes well, you should end up with a new `bower_components` folder containing `html5-boilerplate` and `skeleton-css`
 	
@@ -71,7 +74,7 @@ If all goes well, you should end up with a new `bower_components` folder contain
 
 ![](img/terminal-bower-installed.png)
 
-Bower will install the **components** listed in `bower.json`.
+
 
 
 #### Troubleshooting
@@ -108,6 +111,8 @@ Bower is a **command-line tool**, so you'll use the following application, depen
 | [Terminal](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/) | [CommandPrompt](http://windows.microsoft.com/en-gb/windows-vista/open-a-command-prompt-window) | [Terminal](https://help.ubuntu.com/community/UsingTheTerminal) |
 
 ![](http://i.imgur.com/Gv6qlyH.gif)
+
+[Don't fear the command line](https://zurb.com/expo/lessons/don-t-fear-the-command-line) :)
 
 Once you've opened Terminal / CP, install a couple of things:
 
