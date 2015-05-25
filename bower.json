@@ -5,7 +5,7 @@
   "authors": [
     "Matteo Menapace <https://twitter.com/@baddeo>"
   ],
-  "description": "A minimal WordPress starte theme designed for learning",
+  "description": "A minimal WordPress starter theme designed for learning",
   "main": "index.php",
   "keywords": [
     "WordPress"
