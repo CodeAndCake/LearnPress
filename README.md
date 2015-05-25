@@ -80,7 +80,7 @@ Bower will install the **components** listed in `bower.json`.
 
 	`git config --global url."https://".insteadOf git://`
 	
-* If you're getting a `git is not installed or not in the PATH` error in Windows, follow [these steps](http://stackoverflow.com/questions/20666989/bower-enogit-git-is-not-installed-or-not-in-the-path)* 
+* If you're getting a `git is not installed or not in the PATH` error in Windows, follow [these steps](http://stackoverflow.com/questions/20666989/bower-enogit-git-is-not-installed-or-not-in-the-path) 
 
 
 #### Want more libraries? 
@@ -101,12 +101,15 @@ Check [libraries.io](https://libraries.io/bower/) for even more libraries.
 
 # Installing bower 
 
-Bower is a **command-line tool**, so you'll need
+Bower is a **command-line tool**, so you'll use the following application, depending on which system you are:
 
 | Mac | Windows | Linux |
-| -   |         |       |
+| --- | ------- | ----- |
 | [Terminal](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/) | [CommandPrompt](http://windows.microsoft.com/en-gb/windows-vista/open-a-command-prompt-window) | [Terminal](https://help.ubuntu.com/community/UsingTheTerminal) |
 
+![](http://i.imgur.com/Gv6qlyH.gif)
+
+Once you've opened Terminal / CP, install a couple of things:
 
 1. Install [Node.JS](https://nodejs.org/)   
 	
