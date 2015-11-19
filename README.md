@@ -116,10 +116,11 @@ Bower is a **command-line tool**, so you'll use the following application, depen
 
 Once you've opened Terminal / CP, install a couple of things:
 
-1. Install [Node.JS](https://nodejs.org/)   
+1. Download and install [Node.js](https://nodejs.org/en/download)   
 	
-	To check if you have Node.JS installed..   
-	In Terminal / CP, type `npm` and press the `↲` (Enter) key
+	To check if you have Node.js installed:   
+	In Terminal / CP, type `node -v` and press the `↲` (Enter) key.
+	If the Terminal shows a number, like `v0.10.26` then it means you have version 0.10.26 installed. 
 * Install [bower](http://bower.io/)  
 
 	To check if you have bower installed..   
