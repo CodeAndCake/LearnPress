@@ -102,7 +102,7 @@ Check [libraries.io](https://libraries.io/bower/) for even more libraries.
 
 
 
-# Installing bower 
+# Installing Bower 
 
 Bower is a **command-line tool**, so you'll use the following application, depending on which system you are:
 
@@ -114,7 +114,7 @@ Bower is a **command-line tool**, so you'll use the following application, depen
 
 [Don't fear the command line](https://zurb.com/expo/lessons/don-t-fear-the-command-line) :)
 
-Once you've opened Terminal / CP, install a couple of things:
+Once you've opened Terminal / CP:
 
 1. **Download and install Node.js** 
 
@@ -125,14 +125,18 @@ Once you've opened Terminal / CP, install a couple of things:
 	To check if you have Node.js installed:  
 	
 	* In Terminal / CP, type `node -v` and press the `↲` (Enter) key.
+	* If Terminal / CP shows a number, like `v0.10.26` then it means you have version 0.10.26 installed. 
+* **Install Bower** 
+ 
+	In Terminal / CP, type `sudo npm install -g bower` and press the `↲` (Enter) key.  
+
+	Terminal / CP will ask you for your computer's password (that's because of the `sudo`, which means **s**uper **u**ser **do**, running commands with special powers)
+
+	To check if you have bower installed:   
 	
-	* If the Terminal shows a number, like `v0.10.26` then it means you have version 0.10.26 installed. 
-* Install [bower](http://bower.io/)  
-
-	To check if you have bower installed..   
-	Type `bower` and press the `↲` (Enter) key
-* If you're on Windows, install [msysgit](https://msysgit.github.io/)
-
+	* Type `bower` and press the `↲` (Enter) key
+	* If Terminal / CP shows a number, like `v0.10.26` then it means you have version 0.10.26 installed and you're good to go, unless you're on Windows, in which case read on..
+* If you're on **Windows**, download and install [msysgit](https://msysgit.github.io/).
 
 
 
